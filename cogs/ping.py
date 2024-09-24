@@ -6,7 +6,7 @@ class Ping(commands.Cog):
 
     @commands.slash_command()
     async def ping(self, intaraction):
-        await intaraction.response.send_message("Иди нахуй, сука!")
+        await intaraction.response.send_message("Pong!")
 
 
 def setup(bot):
